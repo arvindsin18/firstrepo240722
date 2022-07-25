@@ -18,6 +18,11 @@ pipeline{
             echo 'Deploying module'
                 }
                       }
+            stage("Checking poll scm"){
+          steps{
+            echo 'Sucsessfully triggered'
+                }
+                      }
          
       
             }
