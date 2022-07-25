@@ -18,9 +18,9 @@ pipeline{
             echo 'Deploying module'
                 }
                       }
-            stage("Checking poll scm"){
+            stage("Checking poll"){
           steps{
-            echo 'Sucsessfully triggered'
+            echo 'Sucsessfully triggered by poll'
                 }
                       }
          
