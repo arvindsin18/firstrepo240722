@@ -18,6 +18,11 @@ pipeline{
             echo 'Deploying module'
                 }
                       }
+          stage("Checking poll again "build 17"){
+          steps{
+            echo 'Sucsessfully triggered by poll'
+                }
+                      }
             
          
       
