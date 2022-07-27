@@ -18,7 +18,7 @@ pipeline{
             echo 'Deploying module'
                 }
                       }
-          stage("Checking poll again"){
+          stage("Checking poll again 20
           steps{
             echo 'Sucsessfully triggered by poll'
                 }
